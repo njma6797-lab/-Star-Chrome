@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>النجم</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- خلفية النجوم -->
+<canvas id="starCanvas"></canvas>
+
+<div class="container">
+  <!-- شريط الرابط -->
+  <div class="navbar">
+    <div class="logo">النجم</div>
+    <input type="text" class="url-input" placeholder="ادخل رابط الموقع">
+    <button class="go-btn" id="goBtn">دخول</button>
+  </div>
+
+  <!-- الإشعار -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <p>الرجاء العلم بأن الملفات محمية – يعمل 100% – تحت إدارة واستضافة النجم</p>
+      <button id="skipBtn">تخطي</button>
+    </div>
+  </div>
+
+  <!-- iframe لعرض الموقع -->
+  <iframe id="browserFrame" src=""></iframe>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
